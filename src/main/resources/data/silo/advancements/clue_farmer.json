@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "silo:key_fragment"
+    },
+    "title": {
+      "translate": "advancement.silo.clue_farmer.title"
+    },
+    "description": {
+      "translate": "advancement.silo.clue_farmer.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "silo:body"
+}

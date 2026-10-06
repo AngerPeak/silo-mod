@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="silo"
+version="1.0.0"
+displayName="Silo: Укрытие"
+description='''
+Новый тип мира «Укрытие»: 144 уровня, спиральная лестница, расследование, выживание и тайна снаружи.
+'''
+
+[[dependencies.silo]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.silo]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

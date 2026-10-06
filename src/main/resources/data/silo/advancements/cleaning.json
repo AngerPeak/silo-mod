@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "silo:suit_helmet"
+    },
+    "title": {
+      "translate": "advancement.silo.cleaning.title"
+    },
+    "description": {
+      "translate": "advancement.silo.cleaning.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "silo:wrong_accuse"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "silo:block/terminal"
+    },
+    "facing=east": {
+      "model": "silo:block/terminal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "silo:block/terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "silo:block/terminal",
+      "y": 270
+    }
+  }
+}

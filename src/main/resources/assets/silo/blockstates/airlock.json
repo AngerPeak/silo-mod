@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "silo:block/airlock"
+    }
+  }
+}

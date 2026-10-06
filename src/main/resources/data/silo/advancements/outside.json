@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "silo:suit_chestplate"
+    },
+    "title": {
+      "translate": "advancement.silo.outside.title"
+    },
+    "description": {
+      "translate": "advancement.silo.outside.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "silo:exit"
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "silo:medallion"
+    },
+    "title": {
+      "translate": "advancement.silo.keeper.title"
+    },
+    "description": {
+      "translate": "advancement.silo.keeper.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "silo:mechanic"
+}

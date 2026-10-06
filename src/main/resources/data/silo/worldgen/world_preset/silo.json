@@ -1,0 +1,24 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "silo:silo",
+      "generator": {
+        "type": "silo:silo",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "silo:interior"
+        }
+      }
+    },
+    "silo:outside": {
+      "type": "silo:outside",
+      "generator": {
+        "type": "silo:outside",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "silo:ashlands"
+        }
+      }
+    }
+  }
+}

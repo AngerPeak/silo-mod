@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "silo:access_key"
+    },
+    "title": {
+      "translate": "advancement.silo.exit.title"
+    },
+    "description": {
+      "translate": "advancement.silo.exit.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "silo:mechanic"
+}
